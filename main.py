@@ -19,7 +19,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "b" or bukva == "B":
+    elif bukva == "b" or bukva == "B":
         print('███████████████')
         print('██╔════════╗███')
         print('██║▓▓▓╔╗▓▓▓║███')
