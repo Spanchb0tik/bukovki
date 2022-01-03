@@ -1,7 +1,7 @@
 #для полной работы программы вам нужно скачать и разместить все mp3 файлы в нужную директорию.
 import pygame
+import time
 import sys
-pygame.init()
 pygame.mixer.init()
 while True:
     bukva = str(input())
@@ -329,7 +329,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    elif bukva == "z" or bukva == "Z":
+    elif bukva == "z" or bukva == "z":
         print('███████████████')
         print('████╔═════╗████')
         print('████╚══╗▓▓║████')
@@ -343,16 +343,40 @@ while True:
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
     else:
-        print("На этом мои полномочия все.")
+       time.sleep(1)
+       print("На этом мои полномочия все.")
+       pygame.mixer.music.load("полномочия.mp3")
+       pygame.mixer.music.play()
+       while pygame.mixer.music.get_busy():
+        pygame.time.Clock().tick(10)
         sys.exit()
-
+    time.sleep(0.3)
     print("Хотите продолжить(yes - y or no - n) ?")
-    a = str(input())
-    while a != "y" and a != "n":
+    pygame.mixer.music.load( "продолжить.mp3")
+    pygame.mixer.music.play()
+    while pygame.mixer.music.get_busy():
+        pygame.time.Clock().tick(10)
+    b = str(input())
+    if  b != "y" and b != "n":
+        time.sleep(0.3)
         print("вы инвалид , так вы хотите продолжить ? ")
-    if a == "n":
+        pygame.mixer.music.load("оскорбления.mp3")
+        pygame.mixer.music.play()
+        while pygame.mixer.music.get_busy():
+            pygame.time.Clock().tick(10)
+    if b == "n":
+        time.sleep(0.3)
         print('Не очень то и хотелось.')
+        pygame.mixer.music.load( "не очень то и хотелось.mp3")
+        pygame.mixer.music.play()
+        while pygame.mixer.music.get_busy():
+            pygame.time.Clock().tick(10)
         sys.exit()
-    if a == "y":
+    if b == "y":
+        time.sleep(0.3)
         print("Спасибо, что пользуетесь нашими услугами!")
+        pygame.mixer.music.load( "услуги.mp3")
+        pygame.mixer.music.play()
+        while pygame.mixer.music.get_busy():
+            pygame.time.Clock().tick(10)
         continue
