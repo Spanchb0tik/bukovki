@@ -29,7 +29,7 @@ while True:
         print('██╚═════════╝██')
         print('███████████████')
 
-    if bukva == "c" or bukva == "C":
+    elif bukva == "c" or bukva == "C":
         print('███████████████')
         print('██╔════════╗███')
         print('██║▓▓▓╔═╗▓▓║███')
@@ -42,7 +42,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "d" or bukva == "D":
+    elif bukva == "d" or bukva == "D":
         print('███████████████')
         print('██╔═════════╗██')
         print("██╚╗▓▓▓╔╗▓▓▓║██")
@@ -55,7 +55,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "e" or bukva == "E":
+    elif bukva == "e" or bukva == "E":
         print("███████████████")
         print('████╔══════╗███')
         print('████║▓▓▓╔══╝███')
@@ -68,7 +68,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "f" or bukva == "F":
+    elif bukva == "f" or bukva == "F":
         print('███████████████')
         print('███╔══════╗████')
         print('███║▓▓▓╔══╝████')
@@ -81,7 +81,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "g" or bukva == "G":
+    elif bukva == "g" or bukva == "G":
         print('███████████████')
         print('██╔═════════╗██')
         print('██║▓▓▓╔═╗▓▓▓║██')
@@ -94,7 +94,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "h" or bukva == "H":
+    elif bukva == "h" or bukva == "H":
         print('███████████████')
         print('██╔═══╗█╔═══╗██')
         print('██║▓▓▓║█║▓▓▓║██')
@@ -107,7 +107,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "i" or bukva == "I":
+    elif bukva == "i" or bukva == "I":
         print('███████████████')
         print('█████╔════╗████')
         print('█████╚╣▓▓╠╝████')
@@ -120,7 +120,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "j" or bukva == "J":
+    elif bukva == "j" or bukva == "J":
         print('███████████████')
         print('███████╔═══╗███')
         print('███████║▓▓▓║███')
@@ -133,7 +133,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "k" or bukva == "K":
+    elif bukva == "k" or bukva == "K":
         print('███████████████')
         print('███╔═══╗╔═══╗██')
         print('███║▓▓▓║║▓▓╔╝██')
@@ -146,7 +146,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "l" or bukva == "L":
+    elif bukva == "l" or bukva == "L":
         print('███████████████')
         print('███╔═══╗███████')
         print('███║▓▓▓║███████')
@@ -159,7 +159,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "m" or bukva == "M":
+    elif bukva == "m" or bukva == "M":
         print('███████████████')
         print('██╓───╖█╓───╖██')
         print('██║▓▓▓╙─╜▓▓▓║██')
@@ -172,7 +172,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "n" or bukva == "N":
+    elif bukva == "n" or bukva == "N":
         print('███████████████')
         print('███╓──╖███╓─╖██')
         print('███║▓▓╙─╖█║▓║██')
@@ -185,7 +185,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "o" or bukva == "O":
+    elif bukva == "o" or bukva == "O":
         print('███████████████')
         print('██╔═════════╗██')
         print('██║   ╔═╗   ║██')
@@ -198,7 +198,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "p" or bukva == "P":
+    elif bukva == "p" or bukva == "P":
         print('███████████████')
         print('█╔═════════╗███')
         print('█║▓▓▓╔═╗▓▓▓║███')
@@ -209,9 +209,9 @@ while True:
         print('███████████████')
         pygame.mixer.music.load(bukva + ".mp3")
         pygame.mixer.music.play()
-    while pygame.mixer.music.get_busy():
-        pygame.time.Clock().tick(10)
-    if bukva == "q" or bukva == "Q":
+        while pygame.mixer.music.get_busy():
+            pygame.time.Clock().tick(10)
+    elif bukva == "q" or bukva == "Q":
         print('███████████████')
         print('██╔═════════╗██')
         print('██║▓▓▓╔═╗▓▓▓║██')
@@ -225,7 +225,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "r" or bukva == "R":
+    elif bukva == "r" or bukva == "R":
         print('███████████████')
         print('██╔═════════╗██')
         print('██║▓▓▓╔═╗▓▓▓║██')
@@ -238,7 +238,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "s" or bukva == "S":
+    elif bukva == "s" or bukva == "S":
         print('███████████████')
         print('███╓───────╖███')
         print('███║▓▓╓────╜███')
@@ -251,7 +251,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "t" or bukva == "T":
+    elif bukva == "t" or bukva == "T":
         print('███████████████')
         print('██╔════════╗███')
         print('██║▓╔╗▓▓╔╗▓║███')
@@ -264,7 +264,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "u" or bukva == "U":
+    elif bukva == "u" or bukva == "U":
         print('███████████████')
         print('██╔═══╗█╔═══╗██')
         print('██║▓▓▓║█║▓▓▓║██')
@@ -277,7 +277,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "v" or bukva == "V":
+    elif bukva == "v" or bukva == "V":
         print('███████████████')
         print('██╓─╖████╓─╖███')
         print('██║▓╙╖██╓╜▓║███')
@@ -290,7 +290,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "w" or bukva == "W":
+    elif bukva == "w" or bukva == "W":
         print('███████████████')
         print('███╔═╗╔═╗╔═╗███')
         print('███║▓║║▓║║▓║███')
@@ -303,7 +303,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "x" or bukva == "X":
+    elif bukva == "x" or bukva == "X":
         print('███████████████')
         print('██╔═══╗╔═══╗███')
         print('██╚╗▓▓╚╝▓▓╔╝███')
@@ -316,7 +316,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "y" or bukva == "Y":
+    elif bukva == "y" or bukva == "Y":
         print('███████████████')
         print('██╔═══╗██╔═══╗█')
         print('██║▓▓▓╚╗╔╝▓▓▓║█')
@@ -329,7 +329,7 @@ while True:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
-    if bukva == "z" or bukva == "Z":
+    elif bukva == "z" or bukva == "Z":
         print('███████████████')
         print('████╔═════╗████')
         print('████╚══╗▓▓║████')
